@@ -5,6 +5,7 @@ import { Nav } from 'react-bootstrap';
 import { NavDropdown } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
+import { InputGroup } from 'react-bootstrap';
 
 
 
@@ -14,7 +15,7 @@ class NavBar extends React.Component {
         
             <Navbar bg="light" expand="lg">
             <Container>
-              <Navbar.Brand href="#home">La Oportunidad</Navbar.Brand>
+              <Navbar.Brand className="mb-1">La Oportunidad</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
